@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #111827;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    margin-top: 50px;
+    width: 600px;
+    height: 550px;
+    background-color:#1F2937;
+    border: 3px solid #E5E7EB;
+    border-radius: 10px;
+    text-align: left;
+}
+.card-helper{
+    margin-top: 110px;
+    margin-left: 50px;
+}
+
+.card-heading{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 5px;
+    color: white;
+}
+#card-head-clr{
+    color: #4ADF86;
+}
+p{
+    color: #D5D4D8
+}
+.btn-gen{
+    width: 190px;
+    height: 70;
+    margin-top: 50px;
+    background-color: #10B981;
+    color: white;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 4px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;  
+}
+
+.line{
+    margin-top: 50px;
+    width: 500px;
+    border-bottom: 0.5px solid #2F3E53;;
+}
+
+#password-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 210px;
+    height: 40px;
+    background-color: #273549;
+    color:#10B981;
+    border-radius: 5px;
+}
+#password-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    margin-top: 40px;
+    width: 210px;
+    height: 40px;
+    background-color: #273549;
+    color:#10B981;
+    border-radius: 5px;
+}
+
+.password-new{
+    display: flex;
+    align-items: start;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
